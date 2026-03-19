@@ -12,19 +12,10 @@
     },
     "messages": [
         {
-            "category": "general",
+            "category": "fundraiser",
             "content": [
-                "Mautic 7.1 is now available!",
-                "See https://mautic.org/blog for upgrade notes."
-            ],
-            "start": "2026-03-30T00:00:00Z",
-            "end": "2026-04-30T23:59:59Z"
-        },
-        {
-            "category": "tip",
-            "content": [
-                "Did you know? You can bulk-update contacts via the API.",
-                "See https://developer.mautic.org for examples."
+                "Mautic is facing a $50k funding gap in 2026.",
+                "Support the project: https://mautic.org/2026-fundraiser/"
             ],
             "start": null,
             "end": null
@@ -32,8 +23,677 @@
         {
             "category": "fundraiser",
             "content": [
-                "Mautic is facing a $50k funding gap in 2026.",
-                "Support the project: https://mautic.org/2026-fundraiser/"
+                "Read why Mautic is facing a $50k funding gap in 2026",
+                "and what we're doing about it:",
+                "https://mautic.org/blog/urgent-call-for-community-support-to-secure-mautics-financial-future/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "fundraiser",
+            "content": [
+                "Make a one-time or recurring donation to Mautic:",
+                "https://opencollective.com/mautic"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "fundraiser",
+            "content": [
+                "Support Mautic as an individual member - vote on",
+                "governance and help shape the roadmap: https://mau.tc/membership"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "fundraiser",
+            "content": [
+                "Find issues ready to work on in the Open Source",
+                "Friday board: https://github.com/orgs/mautic/projects/13"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "fundraiser",
+            "content": [
+                "Reviewing and testing PRs is a valuable contribution.",
+                "Find ones ready to review: https://github.com/orgs/mautic/projects/13"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "fundraiser",
+            "content": [
+                "New to contributing? Find a good first issue:",
+                "https://github.com/orgs/mautic/projects/21/views/12"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "fundraiser",
+            "content": [
+                "Help improve the Mautic developer documentation.",
+                "Find tasks: https://github.com/orgs/mautic/projects/21/views/4"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "fundraiser",
+            "content": [
+                "Help improve the Mautic user documentation.",
+                "Find tasks: https://github.com/orgs/mautic/projects/21/views/3"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "fundraiser",
+            "content": [
+                "Help translate Mautic into your language on Transifex:",
+                "https://app.transifex.com/mautic/mautic"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "fundraiser",
+            "content": [
+                "Found a security vulnerability in Mautic?",
+                "Report it responsibly: https://mautic.org/security/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "fundraiser",
+            "content": [
+                "Earn a bounty for tackling specific funded issues:",
+                "https://contribute.mautic.org/en/latest/contributing/mautic_bounty_programme.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Use PATCH /api/contacts/batch/edit to update up to 100",
+                "contacts in a single API request.",
+                "See: https://devdocs.mautic.org/en/7.0/rest_api/contacts.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic's REST API supports OAuth2 and Basic Auth.",
+                "OAuth2 is recommended for production integrations.",
+                "See: https://devdocs.mautic.org/en/7.0/rest_api/authentication.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic signs webhook payloads with a base64-encoded",
+                "HMAC-SHA256 signature. Always verify Webhook-Signature.",
+                "See: https://devdocs.mautic.org/en/7.0/webhooks/getting_started.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Pro tip: DDEV gets a full Mautic dev environment running",
+                "in minutes - webserver, database, and crons included.",
+                "See: https://devdocs.mautic.org/en/7.0/development-environment/how_to_install_with_ddev.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic uses Symfony's event dispatcher. Subscribe to",
+                "events like mautic.lead_post_save_new in your plugin.",
+                "See: https://devdocs.mautic.org/en/7.0/plugin_miscellaneous/events.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic supports Symfony service autowiring. Declare",
+                "dependencies in your constructor; the container handles the rest.",
+                "See: https://devdocs.mautic.org/en/7.0/plugins/autowiring.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "mautic:segments:update processes contacts in batches.",
+                "Use --batch-limit and --max-contacts to tune performance.",
+                "See: https://docs.mautic.org/en/5.x/configuration/cron_jobs.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Pro tip: run Mautic in dev mode to access the Symfony",
+                "profiler for query debugging and event dispatch tracing.",
+                "See: https://devdocs.mautic.org/en/7.0/development-environment/environments.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic has a built-in ProTip UI component for surfacing",
+                "contextual hints in custom plugins.",
+                "See: https://devdocs.mautic.org/en/7.0/design_templates/protip.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Pro tip: run bin/console cache:clear --env=prod after",
+                "plugin changes. Mautic caches routes, Doctrine, and services.",
+                "See: https://devdocs.mautic.org/en/7.0/plugins/cache.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "MauticJS lets you fire custom events from your website",
+                "directly into the Mautic contact activity timeline.",
+                "See: https://devdocs.mautic.org/en/7.0/mauticjs_api/tracking_script.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic Form Hooks give you onValidate, onResponse, and",
+                "onSubmit JS callbacks without touching server-side code.",
+                "See: https://devdocs.mautic.org/en/7.0/form_hooks/getting_started.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic themes support both GrapesJS and legacy builders.",
+                "Add both to the builder array in your theme's config.json.",
+                "See: https://devdocs.mautic.org/en/7.0/themes/getting_started.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "To list a plugin on the Mautic Marketplace it must be",
+                "on Packagist and pass the allow list review first.",
+                "See: https://devdocs.mautic.org/en/7.0/marketplace/listing.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Every Mautic plugin needs a config.php at the bundle",
+                "root declaring routes, services, menus, and parameters.",
+                "See: https://devdocs.mautic.org/en/7.0/plugins/config.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic fires webhook events for contacts, emails, forms,",
+                "and campaigns. See the full payload reference:",
+                "https://devdocs.mautic.org/en/7.0/webhooks/events/index.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Manage dynamic content blocks via the REST API for",
+                "server-side personalisation at scale.",
+                "See: https://devdocs.mautic.org/en/7.0/rest_api/dynamic_content.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "The official Mautic PHP API library handles OAuth2",
+                "token management and all REST endpoints out of the box.",
+                "See: https://devdocs.mautic.org/en/7.0/rest_api/getting_started.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic 7: export a campaign and its assets as a ZIP,",
+                "then import it into any other instance.",
+                "See: https://mautic.org/blog/mautic-7-columba-edition-is-released/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic has unit, functional, and E2E test suites.",
+                "Run composer test -- --testsuite=Unit to get started.",
+                "See: https://devdocs.mautic.org/en/7.0/testing/e2e_test_suite.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Did you know? Mautic deduplicates contacts using unique",
+                "field identifiers. Configure the merge operator in Contact Settings.",
+                "See: https://docs.mautic.org/en/5.x/configuration/settings.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic plugins follow Symfony MVC. Models extend",
+                "AbstractCommonModel; Controllers extend CommonFormController.",
+                "See: https://devdocs.mautic.org/en/7.0/plugins/mvc.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Pro tip: Mautic deviates from Symfony conventions in a few",
+                "specific areas. Read this before writing your first plugin.",
+                "See: https://devdocs.mautic.org/en/7.0/plugins/mautic_vs_symfony.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Mautic tracks anonymous visitors by cookie. On form submit,",
+                "all prior activity is linked to the identified contact.",
+                "See: https://docs.mautic.org/en/5.x/contacts/contacts_overview.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Webhook events can be batched via mautic:webhooks:process",
+                "or delivered in real time. Choose based on your throughput.",
+                "See: https://devdocs.mautic.org/en/7.0/webhooks/getting_started.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Building a CRM integration? Use Mautic's Integrations",
+                "Framework for auth, field mapping, and sync management.",
+                "See: https://devdocs.mautic.org/en/7.0/plugin_integrations/integrations.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Since Mautic 5, use messenger:consume email --time-limit=160",
+                "instead of mautic:email:send for better queue performance.",
+                "See: https://docs.mautic.org/en/5.x/configuration/cron_jobs.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Did you know? The Mautic Marketplace allow list exists",
+                "to protect users. Understand it before listing your plugin.",
+                "See: https://devdocs.mautic.org/en/7.0/marketplace/allowlist_what_and_why.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "tip",
+            "content": [
+                "Core Mautic view templates can be overridden in your",
+                "bundle without modifying core files.",
+                "See: https://devdocs.mautic.org/en/7.0/themes/system.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Mautic 7 Columba Edition: Campaign import/export,",
+                "API v2 on API Platform, Projects, multilingual SMS.",
+                "See: https://mautic.org/blog/mautic-7-columba-edition-is-released/"
+            ],
+            "start": "2026-01-01T00:00:00Z",
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Mautic publishes monthly Open Startup reports with",
+                "fully transparent financials and project metrics:",
+                "https://mautic.org/tag/openstartup/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "2025 year in review: Mautic's second year of independence,",
+                "what was achieved and what's next:",
+                "https://mautic.org/blog/mautics-year-in-review-2025/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "The Mautic Developer Certification launches soon.",
+                "Formally validate your expertise:",
+                "https://mautic.org/blog/mautic-developer-certification-is-coming/"
+            ],
+            "start": "2026-03-16T00:00:00Z",
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Propose and vote on new Mautic features via the",
+                "Community Portal roadmap:",
+                "https://community.mautic.org/processes/roadmap"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Keep up with Mautic security advisories and CVEs:",
+                "https://mautic.org/security/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Developer discussions and Open Source Friday sprints",
+                "happen in #dev and #t-product on Mautic Slack:",
+                "https://mautic.org/slack"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "The best place to ask development questions is the",
+                "Mautic developer forum category:",
+                "https://forum.mautic.org/c/development"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Mautic is governed by its community, not a corporation.",
+                "Read how the governance model works:",
+                "https://mautic.org/governance/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Mautic has published its AI Manifesto. Worth reading",
+                "before integrating AI features into your work:",
+                "https://mautic.org/mautics-ai-manifesto/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "How a SaaS company scaled Mautic across multiple tenants",
+                "to power ecommerce email at scale:",
+                "https://mautic.org/case-study/scaling-email-marketing-with-multi-tenant-mautic-for-an-ecommerce-saas-solution/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "How one team built scratch card gamification directly",
+                "on top of Mautic to drive engagement and sales:",
+                "https://mautic.org/case-study/using-scratch-card-gamification-with-mautic-to-drive-engagement-and-sales/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Lehner Versand AG sends over 1 million personalised",
+                "multilingual emails per day using Mautic:",
+                "https://mautic.org/case-study/lehner-versand-ag/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "All Mautic development is in the open on GitHub.",
+                "Watch the repo, pick up issues, review PRs:",
+                "https://github.com/mautic/mautic"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Mautic developer docs cover plugins, themes, REST API,",
+                "webhooks, MauticJS, and testing:",
+                "https://devdocs.mautic.org"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "How does code get into Mautic core? Read the code",
+                "governance model before opening your first PR:",
+                "https://contribute.mautic.org/en/latest/governance/code_governance.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Mautic has a formal deprecation policy. Check it",
+                "before upgrading plugins between major versions:",
+                "https://contribute.mautic.org/en/latest/governance/deprecation_policy.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Understanding how Mautic Segments rebuild and when",
+                "contacts move is key to building reliable automations:",
+                "https://mautic.org/blog/how-mautic-segments-keep-your-contact-lists-accurate/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "The Community Handbook covers teams, governance,",
+                "contribution paths and policies for the Mautic project:",
+                "https://contribute.mautic.org"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Around 50,000 organisations use Mautic worldwide.",
+                "The platform you're building on has serious adoption:",
+                "https://mautic.org/who-uses-mautic/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Mautic offers Extended Long Term Support for older versions.",
+                "Relevant if you maintain client installs on legacy releases:",
+                "https://mautic.org/extended-long-term-support-elts/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Mautic is self-hosted with full data ownership.",
+                "No vendor lock-in, no forced upgrades by a SaaS provider:",
+                "https://mautic.org/features/data-sovereignty/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Talks, demos and presentations from Mautic community",
+                "events are on the Mautic YouTube channel:",
+                "https://youtube.com/c/MauticOrg"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Mautic World Conference is the annual in-person and",
+                "virtual gathering for the global community:",
+                "https://mauticon.mautic.org"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "The Mautic Marketplace allow list exists to protect users.",
+                "Understand why before asking to list your plugin:",
+                "https://devdocs.mautic.org/en/7.0/marketplace/allowlist_what_and_why.html"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Mautic's Code of Conduct applies to all community spaces:",
+                "code, forums, Slack, and events.",
+                "https://mautic.org/code-of-conduct/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Need help with a complex Mautic implementation?",
+                "Find a vetted community partner:",
+                "https://mautic.org/members-partners/"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Built something interesting with Mautic? Share it.",
+                "Email marketing-team@mautic.org with this template:",
+                "https://mau.tc/case-study"
+            ],
+            "start": null,
+            "end": null
+        },
+        {
+            "category": "general",
+            "content": [
+                "Not sure how to get involved in Mautic?",
+                "Start here: https://mau.tc/contribute"
             ],
             "start": null,
             "end": null
