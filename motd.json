@@ -17,13 +17,13 @@
                 "Mautic is facing a $50k funding gap in 2026.",
                 "Support the project: https://mautic.org/2026-fundraiser/"
             ],
-            "start": null,
-            "end": null
+            "start": "2026-03-30T00:00:00Z",
+            "end": "2026-04-30T23:59:59Z"
         },
         {
             "category": "fundraiser",
             "content": [
-                "Read why Mautic is facing a $50k funding gap in 2026",
+                "Read why Mautic is facing a $50k funding gap in 2026,",
                 "and what we're doing about it:",
                 "https://mautic.org/blog/urgent-call-for-community-support-to-secure-mautics-financial-future/"
             ],
@@ -386,16 +386,6 @@
                 "Since Mautic 5, use messenger:consume email --time-limit=160",
                 "instead of mautic:email:send for better queue performance.",
                 "See: https://docs.mautic.org/en/5.x/configuration/cron_jobs.html"
-            ],
-            "start": null,
-            "end": null
-        },
-        {
-            "category": "tip",
-            "content": [
-                "Did you know? The Mautic Marketplace allow list exists",
-                "to protect users. Understand it before listing your plugin.",
-                "See: https://devdocs.mautic.org/en/7.0/marketplace/allowlist_what_and_why.html"
             ],
             "start": null,
             "end": null
