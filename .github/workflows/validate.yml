@@ -60,13 +60,34 @@ jobs:
             end
           ' motd.json
 
-      - name: Validate message content is not empty
+      - name: Validate message content keys are valid
         run: |
           jq -e '
             .messages | to_entries[] |
             .key as $index |
-            if .value.content == null or .value.content == "" or .value.content == [] then
-              error("message at index \($index) has empty content")
+            .value.content |
+            if type != "object" then
+              error("message at index \($index) content must be an object")
+            else
+              (keys | map(select(. != "ui" and . != "cli"))) as $invalid_keys |
+              if ($invalid_keys | length) > 0 then
+                error("message at index \($index) content has invalid keys: \($invalid_keys | join(", "))")
+              elif (has("ui") or has("cli")) | not then
+                error("message at index \($index) content must have at least one of: ui, cli")
+              else
+                .
+              end
+            end
+          ' motd.json
+
+      - name: Validate message content arrays are not empty
+        run: |
+          jq -e '
+            .messages | to_entries[] |
+            .key as $index |
+            .value.content | to_entries[] |
+            if (.value | length) == 0 then
+              error("message at index \($index) content.\(.key) array is empty")
             else
               .
             end
@@ -77,18 +98,18 @@ jobs:
           jq -e '
             .messages | to_entries[] |
             .key as $index |
-            .value.content |
-            if type == "array" then
+            .value.content | to_entries[] |
+            .key as $channel |
+            .value |
+            if type != "array" then
+              error("message at index \($index) content.\($channel) must be an array")
+            else
               to_entries[] |
               if (.value | type) != "string" then
-                error("message at index \($index) has non-string content item at index \(.key)")
+                error("message at index \($index) content.\($channel) has non-string item at index \(.key)")
               else
                 .
               end
-            elif type != "string" then
-              error("message at index \($index) content is not a string or array")
-            else
-              .
             end
           ' motd.json
 
