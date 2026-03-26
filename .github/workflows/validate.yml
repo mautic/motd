@@ -86,7 +86,9 @@ jobs:
             .messages | to_entries[] |
             .key as $index |
             .value.content | to_entries[] |
-            if (.value | length) == 0 then
+            if (.value | type) != "array" then
+              error("message at index \($index) content.\(.key) must be an array")
+            elif (.value | length) == 0 then
               error("message at index \($index) content.\(.key) array is empty")
             else
               .
