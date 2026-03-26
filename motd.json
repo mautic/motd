@@ -13,28 +13,38 @@
     "messages": [
         {
             "category": "general",
-            "content": [
-                "Mautic 7.1 is now available!",
-                "See https://mautic.org/blog for upgrade notes."
-            ],
+            "content": {
+                "cli": [
+                    "Mautic 7.1 is now available!",
+                    "See https://mautic.org/blog for upgrade notes."
+                ],
+                "ui": [
+                    "Mautic 7.1 is now available!",
+                    "See <a href='https://mautic.org/blog'>here</a> for upgrade notes."
+                ]
+            },
             "start": "2026-03-30T00:00:00Z",
             "end": "2026-04-30T23:59:59Z"
         },
         {
             "category": "tip",
-            "content": [
-                "Did you know? You can bulk-update contacts via the API.",
-                "See https://developer.mautic.org for examples."
-            ],
+            "content": {
+                "cli": [
+                    "Did you know? You can bulk-update contacts via the API.",
+                    "See https://developer.mautic.org for examples."
+                ]
+            },
             "start": null,
             "end": null
         },
         {
             "category": "fundraiser",
-            "content": [
-                "Mautic is facing a $50k funding gap in 2026.",
-                "Support the project: https://mautic.org/2026-fundraiser/"
-            ],
+            "content": {
+                "cli": [
+                    "Mautic is facing a $50k funding gap in 2026.",
+                    "Support the project: https://mautic.org/2026-fundraiser/"
+                ]
+            },
             "start": null,
             "end": null
         }
