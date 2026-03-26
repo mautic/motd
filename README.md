@@ -66,3 +66,14 @@ Before committing changes to `motd.json`:
 - [ ] Every `message.category` exists in `categories`
 - [ ] `start`/`end` are either `null` or valid ISO-8601 timestamps (UTC recommended, e.g. `2026-03-30T00:00:00Z`)
 - [ ] No expired announcements remain unless intentionally kept for history
+
+## Deployment
+
+When `motd.json` is modified and pushed to the `main` branch, GitHub Actions automatically deploys the updated file to GitHub Pages.
+
+Once deployed, the file is publicly accessible at:
+```
+https://mautic.github.io/motd/motd.json
+```
+
+This is the canonical public URL that all consumers should use. For example, `mautic/mautic` and any other services should retrieve the MOTD from this endpoint.
