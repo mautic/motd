@@ -51,7 +51,7 @@ Example message:
     ],
     "ui": [
       "Mautic 7.1 is now available!",
-      "See <href='https://mautic.org/blog'>here</href> for upgrade notes."
+      "See <a href='https://mautic.org/blog'>here</a> for upgrade notes."
     ]
   },
   "start": "2026-03-30T00:00:00Z",
