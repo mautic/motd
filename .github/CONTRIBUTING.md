@@ -4,7 +4,7 @@ If you think that you have found a security vulnerability in Mautic, please repo
 
 ## Contributing to Mautic
 
-Contribution is open and available to any member of the Mautic community. All fixes and improvements are done through Pull Requests on Github. This code is open source and publicly available.
+Contribution is open and available to any member of the Mautic community. All fixes and improvements are done through Pull Requests on GitHub. This code is open source and publicly available.
 
 We have five teams in the Mautic Community (Community, Education, Legal & Finance, Marketing and Product), all of whom welcome new contributors!
 
