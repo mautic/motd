@@ -1,6 +1,6 @@
 | Q                                      | A
 | -------------------------------------- | ---
-| Bug fix? (use the a.b branch)          | ✔️❌ <!-- Use emojis to indicate positive (green) or negative (red) for each item in the table. -->
+| Bug fix?                               | ✔️❌ <!-- Use emojis to indicate positive (green) or negative (red) for each item in the table. -->
 | New feature/enhancement?      | ✔️❌
 | Issue(s) addressed                     | Fixes #... <!-- prefix each issue number with "Fixes #", no need to create an issue if none exists, explain below instead -->
 
