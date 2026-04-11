@@ -8,6 +8,9 @@
     },
     "fundraiser": {
       "label": "💚 Support Mautic"
+    },
+    "contribute": {
+      "label": "🤝 Contribute to Mautic"
     }
   },
   "messages": [
@@ -57,7 +60,7 @@
       "end": null
     },
     {
-      "category": "fundraiser",
+      "category": "contribute",
       "content": {
         "cli": [
           "Find issues ready to work on in the Open Source",
@@ -68,7 +71,7 @@
       "end": null
     },
     {
-      "category": "fundraiser",
+      "category": "contribute",
       "content": {
         "cli": [
           "Reviewing and testing PRs is a valuable contribution.",
@@ -79,7 +82,7 @@
       "end": null
     },
     {
-      "category": "fundraiser",
+      "category": "contribute",
       "content": {
         "cli": [
           "New to contributing? Find a good first issue:",
@@ -90,7 +93,7 @@
       "end": null
     },
     {
-      "category": "fundraiser",
+      "category": "contribute",
       "content": {
         "cli": [
           "Help improve the Mautic developer documentation.",
@@ -101,7 +104,7 @@
       "end": null
     },
     {
-      "category": "fundraiser",
+      "category": "contribute",
       "content": {
         "cli": [
           "Help improve the Mautic user documentation.",
@@ -112,7 +115,7 @@
       "end": null
     },
     {
-      "category": "fundraiser",
+      "category": "contribute",
       "content": {
         "cli": [
           "Help translate Mautic into your language on Transifex:",
@@ -123,7 +126,7 @@
       "end": null
     },
     {
-      "category": "fundraiser",
+      "category": "contribute",
       "content": {
         "cli": [
           "Found a security vulnerability in Mautic?",
@@ -134,7 +137,7 @@
       "end": null
     },
     {
-      "category": "fundraiser",
+      "category": "contribute",
       "content": {
         "cli": [
           "Earn a bounty for tackling specific funded issues:",
