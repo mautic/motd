@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Mautic bug reporting
+    url: https://github.com/mautic/mautic
+    about: Please report bugs with Mautic here. The MOTD repo is only for reporting bugs with the Message of the Day messages.
+  - name: Mautic Community Support
+    url: https://forum.mautic.org/c/support
+    about: Please ask and answer support questions here.
+  - name: Mautic Feature Requests
+    url: https://forum.mautic.org/c/ideas
+    about: We use GitHub issues as a bug tracker only. Please go to https://forum.mautic.org/c/ideas to find support and discuss features/ideas.
