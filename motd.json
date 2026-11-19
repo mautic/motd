@@ -487,6 +487,18 @@
       "category": "general",
       "content": {
         "cli": [
+          "Running Mautic 5? It no longer gets free security fixes.",
+          "New vulnerabilities will stay unpatched. Pre-order ELTS now:",
+          "https://mautic.org/extended-long-term-support-elts/mautic-5-elts/"
+        ]
+      },
+      "start": "2026-11-19T00:00:00Z",
+      "end": "2026-12-31T23:59:59Z"
+    },
+    {
+      "category": "general",
+      "content": {
+        "cli": [
           "Mautic 7 Columba Edition: Campaign import/export,",
           "API v2 on API Platform, Projects, multilingual SMS.",
           "See: https://mautic.org/blog/mautic-7-columba-edition-is-released/"
